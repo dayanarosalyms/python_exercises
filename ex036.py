@@ -1,0 +1,6 @@
+valor = float(input('Digite o valor total do imóvel: '))
+salario = float(input('Qual é o seu salário mensal? '))
+tempo = int(input('Em quantos anos você pretende pagar? '))
+prestacao = valor / ( tempo * 12)
+print('Para pagar uma casa de R${:.2f} em {} anos'.format(valor, tempo), end=' ')
+print('a prestação será de R${:.2f}.'.format(prestacao))
